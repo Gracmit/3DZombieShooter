@@ -31,8 +31,5 @@ public class Player : MonoBehaviour
         Vector3 movementInput = new Vector3(horizontal, 0 ,vertical);
         Vector3 movement = transform.rotation * movementInput * _movementSpeed;
         _controller.SimpleMove(movement);
-
-
-
     }
 }
