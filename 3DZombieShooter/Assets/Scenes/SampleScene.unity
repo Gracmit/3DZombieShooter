@@ -5590,12 +5590,34 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 565214855}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &566719450 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100024, guid: 96bc3943db8730747845802a4c3df770,
+    type: 3}
+  m_PrefabInstance: {fileID: 1331745503}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &566719451 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400024, guid: 96bc3943db8730747845802a4c3df770,
     type: 3}
   m_PrefabInstance: {fileID: 1331745503}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &566719453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566719450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d93e138652269c4daca19d8d0211347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _shootpoint: {fileID: 1153903120}
+  _bullet: {fileID: 8229668120406230514, guid: 45b093b050253604ba39a895673a1b3d, type: 3}
+  _cameraTransform: {fileID: 963194228}
+  _bulletSpeed: 8
 --- !u!1 &577310109
 GameObject:
   m_ObjectHideFlags: 0
@@ -6527,7 +6549,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 0.41039515, g: 0.75139916, b: 0.8301887, a: 1}
-  m_Intensity: 0.1
+  m_Intensity: 2
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -6583,13 +6605,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
-  m_LocalRotation: {x: 0.5715003, y: -0.25435412, z: 0.18865897, w: 0.7570331}
+  m_LocalRotation: {x: 0.071951434, y: -0.7933869, z: 0.597518, w: 0.09128253}
   m_LocalPosition: {x: 0, y: 19.81, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 74, y: -37.94, z: -1.057}
+  m_LocalEulerAnglesHint: {x: 74, y: -167.67, z: -1.057}
 --- !u!1001 &709517248
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10938,6 +10960,36 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1149458780}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1153903119
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1153903120}
+  m_Layer: 0
+  m_Name: Shootpoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1153903120
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153903119}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.146, y: 0.0222, z: 0.132}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 566719451}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1166063128
 PrefabInstance:
   m_ObjectHideFlags: 0
